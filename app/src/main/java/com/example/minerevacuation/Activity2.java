@@ -30,8 +30,8 @@ public class Activity2 extends AppCompatActivity {
         TextView tvMeanScore = findViewById(R.id.tvMeanCVScore);
         TextView tvStdScore = findViewById(R.id.tvCVScoreStdDev);
 
-        tvMeanScore.setText("Mean CV Score: "+ result.asList().get(0).toString());
-        tvStdScore.setText("Mean STD Score: "+ result.asList().get(1).toString());
+        tvMeanScore.setText(result.asList().get(0).toString());
+        tvStdScore.setText(result.asList().get(1).toString());
 
 
         Button backButton = findViewById(R.id.buttonBack1);
