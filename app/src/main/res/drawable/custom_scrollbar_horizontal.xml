@@ -1,0 +1,4 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#FF0000"/> <!-- Red color for visibility -->
+    <size android:width="4dp"/> <!-- Width of the scrollbar -->
+</shape>
