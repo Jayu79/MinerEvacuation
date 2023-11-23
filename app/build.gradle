@@ -27,10 +27,12 @@ android {
         python {
             version "3.8"  // Path to Python on your development machine
             pip {
-                install("numpy")  // Example, add packages your Python script needs
+                install "numpy"  // Example, add packages your Python script needs
+                install "pandas"
+                install "scikit-learn"
             }
         }
-        sourceSets["main"].python.srcDir("src/main/python")  // Location of Python scripts within the project
+        sourceSets["main"].python.srcDir("app/src/main/python/")  // Location of Python scripts within the project
     }
 
     buildTypes {
