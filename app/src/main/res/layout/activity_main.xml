@@ -11,8 +11,8 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="150dp"
-        android:layout_marginTop="240dp"
-        android:layout_marginEnd="138dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginEnd="142dp"
         android:layout_marginBottom="280dp"
         android:text="First_Page" />
 
@@ -25,8 +25,19 @@
         android:layout_centerInParent="true"
         android:layout_marginStart="150dp"
         android:layout_marginTop="280dp"
-        android:layout_marginEnd="138dp"
-        android:layout_marginBottom="258dp"
+        android:layout_marginEnd="142dp"
+        android:layout_marginBottom="342dp"
         android:text="Second_Page" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="118dp"
+        android:layout_height="62dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="142dp"
+        android:layout_marginBottom="204dp"
+        android:text="Python_Backend" />
 
 </RelativeLayout>
